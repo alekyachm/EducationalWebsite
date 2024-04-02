@@ -1,0 +1,24 @@
+.slider{
+    height: 90vh;
+    margin-top: 25px;
+    width: 88%;
+    left: 15px;
+    margin-left: 4rem;
+    background-image:url(ed2.jpg) ;
+    background-size: 100% 100%;
+    animation: slider 10s infinite;
+}
+@keyframes slider {
+    0%{
+        background-image: url("ed1.jpg");
+    }
+    25%{
+        background-image: url("ed3.jpg");
+    }
+    50%{
+        background-image: url("ed4.jpg");
+    }
+    75%{
+        background-image: url("ed5.jpg");
+    }
+}
